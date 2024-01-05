@@ -6,7 +6,7 @@ use utf8;
 binmode(STDOUT, ':encoding(UTF-8)');
 binmode(STDIN, ':encoding(UTF-8)');
 
-die "Usage: perl forkie.pl <measurement file>\n" if ! @ARGV;
+die "Usage: perl parallel_forkmanager.pl <measurement file>\n" if ! @ARGV;
 my $filename = $ARGV[0];
 my $processes = 8;
 my @child_pids = ();
