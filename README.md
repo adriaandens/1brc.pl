@@ -3,7 +3,7 @@
 
 Original challenge for Java: <https://github.com/gunnarmorling/1brc>
 
-I used the `generate.c` file to generate a billion measurements. Compile with `gcc generate.c -lm` and then run `./a.out 1000000000` to generate the measurements.txt file.
+I used the `generate.c` file ([Source repo](https://github.com/dannyvankooten/1brc/blob/main/create-sample.c)) to generate a billion measurements. Compile with `gcc generate.c -lm` and then run `./a.out 1000000000` to generate the measurements.txt file.
 
 ### Some numbers
 
